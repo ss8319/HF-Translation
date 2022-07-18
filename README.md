@@ -18,11 +18,9 @@ limitations under the License.
 2. Add a .env file at root of repository and add SIL_NLP_DATA_PATH="S:"
 3. Create a new user access token at https://huggingface.co/settings/tokens. For the 'role' option chose 'write',
 to allow you to upload a HF model to the HF hub.
-
 4. Retrieve your AWS s3 credentials for 'key' and 'secret' from your clearml.conf file. 
+5. On your ClearML account, go to Settings>Workspace>Configuration Vault. Add your HF access token and AWS credentials. This gives ClearML access to HF and the s3 bucket.
 
-5. On your ClearML account, go to Settings>Workspace>Configuration Vault. Add your HF access token and AWS credentials. 
-This gives ClearML access to HF and the s3 bucket.
 huggingface {
     token: "<your token>"
 }	
