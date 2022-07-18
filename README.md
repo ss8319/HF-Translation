@@ -18,7 +18,9 @@ limitations under the License.
 2. Add a .env file at root of repository and add SIL_NLP_DATA_PATH="S:"
 3. Create a new user access token at https://huggingface.co/settings/tokens. For the 'role' option chose 'write',
 to allow you to upload a HF model to the HF hub.
+
 4. Retrieve your AWS s3 credentials for 'key' and 'secret' from your clearml.conf file. 
+
 5. On your ClearML account, go to Settings>Workspace>Configuration Vault. Add your HF access token and AWS credentials. 
 This gives ClearML access to HF and the s3 bucket.
 huggingface {
@@ -32,6 +34,7 @@ aws {
         secret: "<your token>"
         }
     }
+    
 5. In your IDE environment, set your Python Intepreter to python 3.8.10. 
 6. Set your project name and task name in the codebase.
 7. Launch your experiment in the CLI. Prior to launching the experiment, you may need to download relevant Python packages.
