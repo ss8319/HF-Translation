@@ -51,7 +51,7 @@ apt-get install python3-distutils
 1. HF access tokens : https://huggingface.co/docs/hub/security-tokens
 2. Download Python 3.8.10 at https://www.python.org/downloads/release/python-3810/
 3. Package dependencies for ClearML are specified in requirements.txt.
-4. Launching an experiment in the CLI is to register the experiment on ClearML. Ctrl+C when appropriate in CLI. 
+4. Launching an experiment in the CLI is to register the experiment on ClearML. Ctrl+C when appropriate in CLI and enqueue on ClearML GUI. 
 5. Under Configurations in the ClearML GUI, expect to see Hyperparameters being updated.
 
 
