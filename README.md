@@ -13,6 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 -->
+## Note
+NMT research done during time in SIL International. Final working copy has been integrated to SIL's repo. Work here is no longer mantained/updated.
+
 ## Setup
 1. Create a Hugging Face account at https://huggingface.co/ 
 2. Add a .env file at root of repository and add SIL_NLP_DATA_PATH="S:"
